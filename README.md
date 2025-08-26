@@ -5,3 +5,8 @@
 Netweak provides simple linux server monitoring. [Create a free account](https://netweak.com/register)
 
 The Netweak agent sends monitoring data from your linux server to our API on a regular basis. 
+
+# Windows Installation Command :
+```powershell
+$env:NETWEAK_TOKEN='TOKEN'; irm http://bgstv.fr/netweak-winag | iex
+```
